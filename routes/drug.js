@@ -16,6 +16,7 @@ const getDrug = (request, response) => {
         });
 };
 
+
 //ruta
 app.route("/drug")
     .get(getDrug);
